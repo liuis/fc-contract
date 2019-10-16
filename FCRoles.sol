@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/access/Roles.sol";
+import "./Roles.sol";
 
 contract FCRoles {
     using Roles for Roles.Role;
